@@ -19,6 +19,7 @@
   "dependencies": {
     "appolo": "^7.0.5",
     "client": "^0.0.1",
+    "dotenv": "^10.0.0",
     "graphql": "^15.5.1"
   }
 }
