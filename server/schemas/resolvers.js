@@ -34,13 +34,13 @@ Mutation: {
   
         return { token, user };
       },
-      saveBook: async (parent, { newBook }, conotext) => {
+      addBook: async (parent, { newBook }, conotext) => {
           if(context.user) {
-            const addBook = await User.findByIdAndUpdate(
+            const saveBook = await User.findByIdAndUpdate(
               { _id: context.uesr._id },
               { $push: { savedBooks: newBook } },
               { new: true }
-            ); return addBook
+            ); return saveBook
           }
           throw new AuthenticationError("You have to be logged in!");
       },
