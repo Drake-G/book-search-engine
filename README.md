@@ -5,6 +5,9 @@ This application is designed to allow the user to create an account and add/dele
 
 ## Installation
 This application is still in the debugging phase and thus there is not yet a fully functioning version of this applicaion at the moment.
+## Photos
+![screenshot](Images/booksearch.png)
+
 
 ## Usage
 In theory, once you have the application loaded into your browser you would be able
