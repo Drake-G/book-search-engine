@@ -4,7 +4,7 @@
 This application is designed to allow the user to create an account and add/delete books from their account using the google book search api. This application is not currenlty working, returning a 'Cannot read property 'some' of undefined'.
 
 ## Installation
-This application is still in the debugging phase and thus there is not yet a fully functioning version of this applicaion at the moment.
+This application is still in the debugging phase and thus there is not yet a fully functioning version of this applicaion at the moment. It will be available [here](https://cryptic-plains-95193.herokuapp.com)
 ## Photos
 ![screenshot](Images/booksearch.png)
 
